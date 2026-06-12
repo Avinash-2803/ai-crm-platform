@@ -1,7 +1,7 @@
 # 🚀 AI CRM Platform
 
 <p align="center">
-  <img src="./login-page.png" width="100%" alt="AI CRM Platform">
+  <img src="./enterprise-login-page.png" width="100%" alt="AI CRM Platform">
 </p>
 
 <h3 align="center">
@@ -114,7 +114,7 @@ and predicts:
 # 🤖 AI Ticket Processing Flow
 
 <p align="center">
-<img src="./AI_Processing%20svg.png" width="100%" alt="AI Processing">
+<img src="./AI_Processing_svg.png" width="100%" alt="AI Processing">
 </p>
 
 ### Flow
