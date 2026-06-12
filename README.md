@@ -154,7 +154,7 @@ Supported Metrics:
 ## Login Page
 
 <p align="center">
-<img src="./login-page.png" width="100%" alt="Login Page">
+<img src="./enterprise-login-page.png" width="100%" alt="Login Page">
 </p>
 
 ---
