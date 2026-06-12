@@ -1,8 +1,12 @@
 # 🚀 AI CRM Platform
 
 <p align="center">
-  <img src="./screenshots/Login Page.png" width="100%" />
+  <img src="./login-page.png" width="100%" alt="AI CRM Platform">
 </p>
+
+<h3 align="center">
+Enterprise AI-Powered CRM Platform with Ticket Management, AI Classification, Monitoring & Observability
+</h3>
 
 <p align="center">
 
@@ -22,19 +26,9 @@
 
 # 📌 Overview
 
-AI CRM Platform is an enterprise-grade customer relationship management system built using modern cloud-native technologies.
+AI CRM Platform is an enterprise-grade customer relationship management system built using React, Django REST Framework, PostgreSQL, Redis, Celery, Docker, Prometheus, Grafana, and Google Gemini AI.
 
-The platform enables customers to create support tickets, automatically classifies tickets using Google Gemini AI, allows administrators to assign tickets to agents, tracks ticket activity timelines, and provides real-time observability through Prometheus and Grafana.
-
-The system demonstrates:
-
-- AI-powered ticket management
-- Enterprise RBAC security
-- Distributed task processing
-- Caching strategies
-- Monitoring & Observability
-- Containerized deployment
-- Modern React dashboards
+The platform enables organizations to streamline customer support operations through AI-powered ticket classification, automated priority prediction, role-based access control, distributed task processing, monitoring, and observability.
 
 ---
 
@@ -42,109 +36,85 @@ The system demonstrates:
 
 ## 🔐 Authentication & Authorization
 
-- JWT Authentication
-- Role Based Access Control (RBAC)
-- Admin Role
-- Agent Role
-- Customer Role
-- Protected Routes
-
----
+* JWT Authentication
+* Role-Based Access Control (RBAC)
+* Admin Role
+* Agent Role
+* Customer Role
+* Protected Routes
 
 ## 🤖 AI Ticket Classification
 
 Google Gemini automatically analyzes:
 
-- Ticket Title
-- Ticket Description
+* Ticket Title
+* Ticket Description
 
-And predicts:
+and predicts:
 
 ### Categories
 
-- Billing
-- Technical
-- Product
-- Delivery
-- Account
-- General
+* Billing
+* Technical
+* Product
+* Delivery
+* Account
+* General
 
 ### Priorities
 
-- Low
-- Medium
-- High
-- Critical
-
----
+* Low
+* Medium
+* High
+* Critical
 
 ## 👨‍💼 Admin Dashboard
 
-- Customer Analytics
-- Ticket Analytics
-- AI Category Analytics
-- Ticket Distribution Charts
-- KPI Monitoring
-- Agent Assignment
-- Ticket Detail View
-- Activity Timeline Tracking
-
----
+* Customer Analytics
+* Ticket Analytics
+* AI Category Analytics
+* KPI Monitoring
+* Agent Assignment
+* Ticket Detail View
+* Activity Timeline
 
 ## 👨‍💻 Agent Dashboard
 
-- Assigned Tickets
-- Ticket Status Updates
-- Ticket Lifecycle Management
-- Resolution Workflow
-
----
+* Assigned Tickets
+* Ticket Status Updates
+* Ticket Lifecycle Management
+* Resolution Workflow
 
 ## 👤 Customer Dashboard
 
-- Create Tickets
-- Track Ticket Status
-- View Assigned Agent
-- Monitor Resolution Progress
-
----
+* Create Tickets
+* Track Ticket Status
+* View Assigned Agent
+* Monitor Resolution Progress
 
 ## 📊 Monitoring & Observability
 
-- Prometheus Metrics Collection
-- Grafana Dashboards
-- API Request Tracking
-- Memory Monitoring
-- Request Rate Monitoring
-- Service Health Monitoring
-
----
-
-## ⚙️ Infrastructure
-
-- Docker
-- Docker Compose
-- PostgreSQL
-- Redis
-- Celery Workers
-- Gemini AI Integration
+* Prometheus Metrics Collection
+* Grafana Dashboards
+* API Request Monitoring
+* CPU Monitoring
+* Memory Monitoring
+* Service Health Tracking
 
 ---
 
 # 🏗️ System Architecture
 
 <p align="center">
-<img src="./architecture/architecture.svg" width="100%">
+<img src="./architecture.svg" width="100%" alt="Architecture">
 </p>
-
-The platform follows a modular architecture where React communicates with Django REST APIs, while Redis, Celery, PostgreSQL, Gemini AI, Prometheus, and Grafana support scalability and observability.
 
 ---
 
 # 🤖 AI Ticket Processing Flow
 
 <p align="center">
-<img src="./screenshots/AI_Processing svg.png" width="100%">
+<img src="./AI_Processing%20svg.png" width="100%" alt="AI Processing">
 </p>
 
 ### Flow
@@ -163,25 +133,28 @@ The platform follows a modular architecture where React communicates with Django
 
 # 📈 Monitoring & Observability Architecture
 
-Prometheus continuously scrapes metrics exposed by Django services and Grafana visualizes them through operational dashboards.
+<p align="center">
+<img src="./Monitoring%20svg.png" width="100%" alt="Monitoring">
+</p>
 
 Supported Metrics:
 
-- Request Count
-- Request Rate
-- API Latency
-- Memory Usage
-- Virtual Memory Usage
-- Service Availability
+* Request Count
+* Request Rate
+* API Latency
+* CPU Usage
+* Memory Usage
+* Virtual Memory Usage
+* Service Availability
 
 ---
 
-# 🖥️ Screenshots
+# 🖥️ Application Screenshots
 
 ## Login Page
 
 <p align="center">
-<img src="./screenshots/Login Page.png" width="100%">
+<img src="./login-page.png" width="100%" alt="Login Page">
 </p>
 
 ---
@@ -189,7 +162,7 @@ Supported Metrics:
 ## Admin Dashboard
 
 <p align="center">
-<img src="./screenshots/Admin DASHBOARD(1).png" width="100%">
+<img src="./admin-dashboard-1.png" width="100%" alt="Admin Dashboard">
 </p>
 
 ---
@@ -197,7 +170,7 @@ Supported Metrics:
 ## Analytics Dashboard
 
 <p align="center">
-<img src="./screenshots/ADmin Dashboard-2.png" width="100%">
+<img src="./admin-dashboard-2.png" width="100%" alt="Analytics Dashboard">
 </p>
 
 ---
@@ -205,15 +178,15 @@ Supported Metrics:
 ## Ticket Management
 
 <p align="center">
-<img src="./screenshots/Admin-Dashboard-3 (2).png" width="100%">
+<img src="./admin-dashboard-3.png" width="100%" alt="Ticket Management">
 </p>
 
 ---
 
-## Ticket Details & Activity Timeline
+## Agent Dashboard
 
 <p align="center">
-<img src="./screenshots/Ticket Details.png" width="100%">
+<img src="./Agent%20Dashboard.png" width="100%" alt="Agent Dashboard">
 </p>
 
 ---
@@ -221,55 +194,87 @@ Supported Metrics:
 ## Customer Dashboard
 
 <p align="center">
-<img src="./screenshots/customer Dashboard2.png" width="100%">
+<img src="./customer%20Dashboard1.png" width="100%" alt="Customer Dashboard">
+</p>
+
+---
+
+## Customer Ticket View
+
+<p align="center">
+<img src="./customer%20Dashboard2.png" width="100%" alt="Customer Ticket View">
+</p>
+
+---
+
+## Ticket Details & Activity Timeline
+
+<p align="center">
+<img src="./ticket-management.png" width="100%" alt="Ticket Details">
 </p>
 
 ---
 
 # 📊 Grafana Dashboards
 
-## API Requests
+## System Health
 
 <p align="center">
-<img src="./screenshots/All API Request.png" width="100%">
+<img src="./System%20Health.png" width="100%" alt="System Health">
 </p>
 
 ---
 
-## Memory Usage
+## API Request Monitoring
 
 <p align="center">
-<img src="./screenshots/Memory Usage.png" width="100%">
+<img src="./All%20API%20Request.png" width="100%" alt="API Requests">
 </p>
 
 ---
 
-## Virtual Memory Usage
+## CPU Monitoring
 
 <p align="center">
-<img src="./screenshots/Virtual Memory usage.png" width="100%">
+<img src="./CPU%20Usage.png" width="100%" alt="CPU Usage">
+</p>
+
+---
+
+## Memory Monitoring
+
+<p align="center">
+<img src="./Memory%20Usage.png" width="100%" alt="Memory Usage">
+</p>
+
+---
+
+## Virtual Memory Monitoring
+
+<p align="center">
+<img src="./Virtual%20Memory%20usage.png" width="100%" alt="Virtual Memory">
 </p>
 
 ---
 
 # 🛠️ Tech Stack
 
-| Layer | Technology |
-|---------|------------|
-| Frontend | React.js |
-| Styling | Tailwind CSS |
-| Routing | React Router |
-| Charts | Recharts |
-| Backend | Django |
-| API | Django REST Framework |
-| Authentication | JWT |
-| Database | PostgreSQL |
-| Cache | Redis |
-| Background Jobs | Celery |
-| AI Engine | Google Gemini |
-| Monitoring | Prometheus |
-| Visualization | Grafana |
-| Containerization | Docker |
+| Layer            | Technology            |
+| ---------------- | --------------------- |
+| Frontend         | React.js              |
+| Styling          | Tailwind CSS          |
+| Routing          | React Router          |
+| Charts           | Recharts              |
+| Backend          | Django                |
+| API              | Django REST Framework |
+| Authentication   | JWT                   |
+| Database         | PostgreSQL            |
+| Cache            | Redis                 |
+| Background Jobs  | Celery                |
+| AI Engine        | Google Gemini         |
+| Monitoring       | Prometheus            |
+| Visualization    | Grafana               |
+| Containerization | Docker                |
 
 ---
 
@@ -285,27 +290,18 @@ git clone https://github.com/Avinash-2803/ai-crm-platform.git
 
 ```bash
 cd crm-backend
-
 python -m venv venv
-
 venv\Scripts\activate
-
 pip install -r requirements.txt
 ```
-
----
 
 ## Frontend
 
 ```bash
 cd crm-frontend
-
 npm install
-
 npm run dev
 ```
-
----
 
 ## Docker Deployment
 
@@ -317,11 +313,9 @@ docker compose up --build
 
 # 📚 API Documentation
 
-Swagger Documentation:
+Swagger UI:
 
-```text
 http://localhost:8000/api/docs/
-```
 
 ---
 
@@ -329,31 +323,27 @@ http://localhost:8000/api/docs/
 
 Prometheus:
 
-```text
 http://localhost:9090
-```
 
 Grafana:
 
-```text
 http://localhost:3000
-```
 
 ---
 
-# 🎯 Key Engineering Concepts Demonstrated
+# 🎯 Engineering Concepts Demonstrated
 
-- AI Integration
-- REST APIs
-- RBAC
-- JWT Security
-- Database Design
-- Background Processing
-- Redis Caching
-- Observability
-- Monitoring
-- Dockerized Deployment
-- Distributed Systems Fundamentals
+* AI Integration
+* REST APIs
+* RBAC
+* JWT Security
+* Database Design
+* Redis Caching
+* Background Processing
+* Observability
+* Monitoring
+* Dockerized Deployment
+* Distributed Systems Fundamentals
 
 ---
 
